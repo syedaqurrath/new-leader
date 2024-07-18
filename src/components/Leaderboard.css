@@ -1,0 +1,58 @@
+.leaderboard {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: #333;
+    color: white;
+  }
+  
+  thead th {
+    padding: 10px;
+  }
+  
+  tbody tr {
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tbody tr.top-1 {
+    background-color: gold;
+  }
+  
+  tbody tr.top-2 {
+    background-color: silver;
+  }
+  
+  tbody tr.top-3 {
+    background-color: #cd7f32;
+  }
+  
+  tbody td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .recent-entry {
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  .recent-entry h3 {
+    margin: 0;
+  }
+  
+  .recent-entry div {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  /* Leaderboard.css */

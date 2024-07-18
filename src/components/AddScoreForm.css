@@ -1,0 +1,27 @@
+.add-score-form {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .add-score-form input {
+    margin: 5px;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-score-form button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #282c34;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-score-form button:hover {
+    background-color: #555;
+  }
+  
